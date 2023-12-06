@@ -1,6 +1,6 @@
 # Overview
 
-# Inertial Delay vs. Transport Delay
+# INERTIAL DELAY vs. TRANSPORT DELAY
 This repository contains two VHDL code files, `delay_line.vhdl` and `buf.vhdl`, implementing behavioral architectures for a delay line and a buffer, respectively. Both designs have been created with the goal of introducing delays in digital signals. This README provides an overview of the files, explains the purpose of each module, and delves into the concepts of inertial and transport delay.
 
 
