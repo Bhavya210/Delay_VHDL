@@ -4,7 +4,7 @@
 This repository contains two VHDL code files, `delay_line.vhdl` and `buf.vhdl`, implementing behavioral architectures for a delay line and a buffer, respectively. Both designs have been created with the goal of introducing delays in digital signals. This README provides an overview of the files, explains the purpose of each module, and delves into the concepts of inertial and transport delay.
 
 
-## Transport Delay
+## TRANSPORT DELAY
 Transport delay, on the other hand, represents an instantaneous change in the output as soon as the input changes. It is an idealized form of delay that simplifies modeling but may not fully reflect the physical reality of signal propagation.
 # delay_line.vhdl
 
@@ -14,7 +14,7 @@ The `delay_line` module serves as a simple VHDL implementation of a delay line. 
 ## Usage
 Integrate this module into larger digital designs when precise signal delay is required. Connect the input signal to `a` and capture the delayed output at `b`.
 
-## Inertial Delay
+## INERTIAL DELAY
 Inertial delay is a modeling concept where a signal must persist for a specified duration to cause a change in the output. It represents a more realistic view of physical phenomena, requiring sustained input conditions to influence the output.
 
 # buf.vhdl
